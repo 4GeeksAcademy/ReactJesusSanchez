@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./navbar";
 import Cartapri from "./cartapri";
 import Cartainferiores from "./cartasinferiores";
+import Footer from "./footer";
 
 const Home = (props) => {
 	const noticias = [
@@ -26,7 +27,7 @@ const Home = (props) => {
 				))}
 				</div>
 
-
+				<Footer/>
 				
 			</div>
 
